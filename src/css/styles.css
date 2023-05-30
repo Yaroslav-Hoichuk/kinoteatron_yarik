@@ -1,0 +1,37 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
+* {
+    color: aliceblue;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-image: linear-gradient(to bottom, #0f0c29, #302b63, #24243e);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+input[type="submit"] {
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    border-width: 3px;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+    animation: border-change 5s infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes border-change {
+    0% {
+        border-color: #c6ffdd;
+    }
+    33% {
+        border-color: #fbd786;
+    }
+    66% {
+        border-color: #f7797d;
+    }
+}
